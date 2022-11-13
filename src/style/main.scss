@@ -1,0 +1,15 @@
+$primary: #5c78bc;
+$secondary: #80ce47;
+$info: #9fe7f3;
+
+.container{
+    max-width: 980px;
+    min-height: 100vh;
+}
+.carousel-indicators{
+    li{
+        background-color: $primary !important;
+    }
+} 
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
